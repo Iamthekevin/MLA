@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+
+}
+:root{
+--var-dark-orange:#e05716;
+--var-light-orange:#f26522;
+--var-white-color:#ffff;
+--font-poppins:'Poppins', sans-serif;
+--font-outfit: 'Outfit', sans-serif;
+}
+html{
+    font-size:10px;
+  
+}
+::-webkit-scrollbar{
+
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--var-dark-orange);
+}
+.myemail{
+    font-size: 1.7rem;
+    padding-left: 5px;
+   color: var(--var-dark-orange);
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    text-shadow: 1px 1px grey;
+
+}
+.nav{
+    background-color:white;
+    height: 40px;
+}
+.content-contact{
+    padding-right: 13px;
+}
+.fa-square-facebook
+{
+    font-size: 2.5rem;
+    color:darkblue;
+    text-shadow: 1px 1px grey;
+}
+
+.fa-telegram{
+    font-size: 2.5rem;
+    color:lightskyblue;
+    text-shadow: 1px 1px grey;
+}
+.fa-instagram{
+    font-size: 2.5rem;
+    color:rgb(197, 20, 182);
+    text-shadow: 1px 1px grey;
+}
+.fa-discord{
+    font-size: 2.5rem;
+    color:rgb(14, 14, 175);
+    text-shadow: 1px 1px grey;
+}
+
+
+.upper-logo-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.congress{
+    height: 50px;
+    width: 250px;
+
+}
+.nav-item ul{
+  background-color: white;
+}
+.nav-item ul li{
+    font-family: var(--font-outfit);
+    font-size: 1.8rem!important;
+    
+    
+}
+.nav-item ul li a{
+    color: blue;
+}
+.navbar{
+    background-color: var(--var-light-orange);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    
+}
+nav .nav-item .nav-link{
+    font-size: 2.1rem;
+    font-family: var(--font-outfit);
+    font-weight: 600;
+    text-shadow: 2px 2px grey;
+    color: var(--var-white-color);
+    text-transform: capitalize;
+}
+nav .nav-item .nav-link{
+    border-right: 0.1px solid rgb(201, 201, 201)!important;
+    border-right: thin;
+ }
+.nav-link:hover{
+
+background-color: green;
+transition: all 0.3s;
+border-bottom-left-radius: 7px;
+border-top-right-radius:7px;
+}
+.navbar-toggler{
+    outline: none!important;
+    border: none!important;
+    --bs-navbar-toggler-focus-width:none;
+    
+}
+.fa-bars-staggered{
+font-size: 2.5rem;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(238, 115, 0, 0.7);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.carousel-indicators [data-bs-target]{
+background-color: #84cdee;
+height: 6px;
+width: 40px
+}
+
+.footer{
+  background-image: url("./logo/hand_congress.svg");
+   background-position: center;
+   background-color: #100720;
+   background-repeat: repeat;
+ }
+.inner-footer{
+    padding-top:  15px;
+}
+a{
+    text-decoration: none!important;
+    color: white;
+}
+a:hover{
+   color: var(--var-light-orange);
+}
+.list-one ul{
+    list-style:none;
+
+}
+.list-one ul li{
+    font-size: 2rem;
+    font-family:var(--font-outfit);
+}
+.links-heading{
+    color:var(--var-dark-orange);
+    font-family: var(--font-poppins);
+    font-size: 2.5rem;
+}
+.address{
+    color:var(--var-dark-orange);
+    font-family: var(--font-poppins);
+    font-size: 2.5rem;
+}
+.address-content{
+    color: white;
+    font-size: 1.8rem;
+    font-family: var(--font-outfit);
+  }
+.firsttag{
+    background-color:#31087B;
+    color: white;
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+}
+.secondtag{
+   background-color:#3B44F6;
+    color: white;
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+    }
+.thirdtag{
+    background-color:#FF4949;
+    color: white;
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+}
+.fourthtag{
+    background-color:#FA2FB5;
+    color: white;
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+}
+
+.name-owner{
+ font-family: var(--font-poppins);
+ font-size: 3.5rem;
+ text-transform: capitalize;
+ color: var(--var-dark-orange);
+}
+.owner-para{
+    color: grey;
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+text-align: justify;
+}
+.readmore{
+    background-color: green;
+    color: white;
+    font-family: var(--font-outfit);
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.journey-heading{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    font-family:var(--font-poppins);
+    color: var(--var-dark-orange);
+}
+
+
+/* nav and the tab sectiom */
+.nav-pills .nav-link{
+    background-color: var(--var-dark-orange);
+    font-family: var(--font-outfit);
+    font-size: 2rem;
+    margin-right: 10px;
+    color: white;
+}
+
+
+.cardone-content{
+    color: grey;
+    font-family: var(--font-outfit);
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.nav{
+display: flex;
+justify-content: center!important;
+}
+.little-about{
+    padding-top: 2rem;
+}
+
+.history-owner {
+    padding-top: 2rem!important;
+}
+.media-gallery{
+    padding-top: 2rem;
+}
+.gallery-heading{
+    font-family: var(--font-poppins);
+    font-size: 3.5rem;
+    color: var(--var-dark-orange);
+    text-transform: capitalize;
+     
+}
+/* ----------------------- ABOUT PAGE CSS------------------------------- */
+.pratapheading{
+
+    font-family: var(--font-poppins);
+    font-size: 3.5rem!important;
+        color: var(--var-dark-orange);
+}
+
+.about-first-para{
+
+    font-family: var(--font-outfit);
+    font-size: 1.8rem!important;
+    text-align: justify;
+    color:grey
+}
+
+
+
+
+/* contact form css*/
+
+.say-hello-heading{
+    color: var(--var-dark-orange);
+    font-family: var(--font-poppins);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid green;
+    border-width: 3px;
+    padding-top: 10px!important;
+        
+}
+.address-new{
+    font-size: 3.6rem!important;
+    color: black;
+    font-weight: 600;
+    font-family: var(--font-outfit);
+}
+.movedown{
+    margin-top: 5rem!important;
+}
+
+.my-bg-from{
+    background-image: url(./logo/15202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+.sample-content{
+    color: green;
+    font-family: var(--font-outfit);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow: 2px 2px white!important;
+}
+.form-control{
+    height:40px;
+}
+
+
+form ::placeholder{
+    font-size: 2rem;
+    font-family: var(--font-poppins);
+    color: var(--var-dark-orange)!important;
+}
+.mybtn{
+    padding: 10px;
+  background-color:green;
+  color: white;
+  font-family: var(--font-outfit);
+  font-size: 1.8rem;
+}
+.gallerymedia{
+    background-image: url("./logo/PNG\ Back.png");
+    border: 5px solid green!important;
+   
+}

@@ -1,0 +1,115 @@
+
+@media screen and (min-width:320px) and (max-width:576px) {
+    .congress{
+        height: 40px;
+        width: 210px;
+    }
+    
+    .myemail{
+        font-size: 1.1rem;
+        padding-left: 1px;
+    }
+    .nav-item ul li{
+        font-size: 1.3rem;
+    }
+
+    .content-contact{
+        padding-right: 5px;
+    }
+    .fa-square-facebook
+{
+    font-size: 2rem;
+    color:darkblue;
+    text-shadow: 1px 1px grey;
+}
+
+.fa-telegram{
+    font-size: 2rem;
+    color:lightskyblue;
+    text-shadow: 1px 1px grey;
+}
+.fa-instagram{
+    font-size: 2rem;
+    color:rgb(197, 20, 182);
+    text-shadow: 1px 1px grey;
+}
+.fa-discord{
+    font-size: 2rem;
+    color:rgb(14, 14, 175);
+    text-shadow: 1px 1px grey;
+}
+   
+
+
+
+         nav .nav-item .nav-link {
+            font-size: 1.6rem!important;
+        }
+        .mobilechangefont{
+            font-size: 1.5rem;
+        }
+        .headingfont{
+            font-size: 2rem;
+        }
+        .list-one ul li{
+            font-size: 1.8rem;
+        }
+        
+        .name-owner{
+            font-size: 2.2rem;
+        }
+        
+        .owner-para{
+            font-size: 1.2rem;
+        }
+        .readmore{
+            font-size: 1.3rem;
+        }
+
+
+
+        /* ------------ responsive about php------------------ */
+.pratapheading{
+    font-size: 2rem!important;
+}
+.about-first-para{
+    font-size: 1.3rem!important;
+}
+
+
+/* contact  */
+.myphone-res{
+    height: 60px!important;
+    width: 60px!important;
+    
+    }
+    .address-new {
+        font-size: 2.5rem!important;
+    
+    }
+
+    .sample-content{
+        font-size: 1.6rem;
+    }
+    .say-hello-heading{
+        font-size: 2.5rem;
+    }
+
+    form ::placeholder{
+        font-size: 1.6rem;
+        
+    }
+    .mybtn{
+       font-size: 1.8rem!important;
+       padding: 5px;
+       
+
+    }
+    .moveup{
+        margin-top: 1rem;
+    }
+}
+
+
+
+
